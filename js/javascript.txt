@@ -1,0 +1,4 @@
+Javascript
+
+alert/ console.log /
+f12개발자 모드에 콘솔창에 입력된다.

@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <ul>
+            <li>test2</li>
+        </ul>
+        <ul class="foo">
+            <li>test</li>
+        </ul>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            (function($){            
+                $('ul.foo').click(function(){$('li', this).css('background-color','red');});
+            })(jQuery)
+        </script>
+    </body>
+</html>

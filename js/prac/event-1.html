@@ -1,0 +1,24 @@
+<!-- http://api.jquery.com/wrap/ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          p {
+                color:blue;
+                margin:8px;
+            }
+        </style>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </head>
+    <body>
+        <input type="text" value="some text"/>
+        <p>
+        </p>
+       <script type="text/javascript">
+            $("input").keyup(function(){
+                value=$(this).val();
+                $("p").text(value)
+            }).keyup();
+        </script>
+    </body>
+</html>
